@@ -3,6 +3,7 @@ import 'package:todo_app/models/task.dart';
 import 'package:todo_app/widgets/task_tile.dart';
 import 'package:todo_app/widgets/tasks_list.dart';
 import 'package:todo_app/screens/add_task_screen.dart';
+import 'package:provider/provider.dart';
 
 class TasksScreen extends StatefulWidget {
   const TasksScreen({Key? key}) : super(key: key);
@@ -25,7 +26,7 @@ class _TasksScreenState extends State<TasksScreen> {
       backgroundColor: Colors.lightBlueAccent,
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.lightBlueAccent,
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
         onPressed: () {
           showModalBottomSheet(
             isScrollControlled: true,
