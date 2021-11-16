@@ -10,7 +10,7 @@ class AddTaskScreen extends StatelessWidget {
     return Container(
       color: const Color(0xff757575),
       child: Container(
-        height: MediaQuery.of(context).size.height * 0.65,
+        height: MediaQuery.of(context).size.height * 0.53,
         padding: const EdgeInsets.all(20),
         decoration: const BoxDecoration(
           color: Colors.white,
