@@ -40,7 +40,7 @@ class TasksScreen extends StatelessWidget {
                     height: 10,
                   ),
                   const Text(
-                    "Todoey",
+                    "Todo",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 50,
